@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  top: 0;
+  height: 90px;
+  width: 100vw;
+  background-color: rgb(128, 138, 141); /* This sets the solid color */
+  background-image: url('../../assets/IMG/paperTexture2-.png'); /* This sets the background image */
+  background-blend-mode: overlay; /* This blends the color with the image */
+  background-size: cover; /* This ensures the image covers the whole header */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+
+.header_clef{
+  height: 90px;
+  width: 90px;
+  overflow: hidden;
+}
+
+.header_clef img {
+  height: 100%;
+  width: 100%; 
+}
+
+.header_text {
+  font-size: 20px;
+  color: rgb(81, 87, 90);
+}
