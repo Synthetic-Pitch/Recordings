@@ -7,6 +7,11 @@ import Panalangin from '../assets/Audio2/Panalangin.mp3'
 import Sayo from '../assets/Audio2/Sayo.mp3'
 import enchanted from '../assets/Audio2/Enchanted.mp3'
 import MagkanilangMundo from '../assets/Audio2/MagkabilangMundo.mp3'
+import LadyFeet from '../assets/Audio2/ladyFeet.mp3'
+import sundo from '../assets/Audio2/sundo.mp3'
+import palagi from '../assets/Audio2/Palagi-Final.mp3'
+import Forevermore from '../assets/Audio2/forevermore.mp3'
+import ThousandYears from '../assets/Audio2/thousandYears.mp3'
 
 export const Audio = [
   {
@@ -44,5 +49,25 @@ export const Audio = [
   {
     title:'Magkabilang mundo',
     source: MagkanilangMundo
+  },
+  {
+    title:'Forevermore',
+    source: Forevermore
+  },
+  {
+    title:'Lady Feet',
+    source: LadyFeet
+  },
+  {
+    title:'Sundo',
+    source: sundo
+  },
+  {
+    title:'Palagi',
+    source: palagi
+  },
+  {
+    title:'Thousand Years',
+    source: ThousandYears
   }
 ];

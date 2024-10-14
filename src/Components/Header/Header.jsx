@@ -4,19 +4,19 @@ import { MyContext } from "../../Context/Context"
 import { useContext } from "react"
 
 const Header = () => {
-  const {setRenderPage,renderPage} =useContext(MyContext)
-
-  const handleChangePage =()=>{
+  const { setRenderPage, renderPage } = useContext(MyContext);
+  
+  const handleChangePage = () => {
     setRenderPage(!renderPage)
   }
   
   return (
     <div className="header">
       <div className="header_clef">
-        <img onClick={handleChangePage} src={clef} alt="png"/>
+        <img onClick={handleChangePage} src={clef} alt="png" />
       </div>
       <div className="header_text">
-        <i>Invisible thread</i>
+        <i>marked-</i>
       </div>
     </div>
   )

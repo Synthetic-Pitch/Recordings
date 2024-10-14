@@ -3,7 +3,6 @@
   top: 0;
   height: 90px;
   width: 100vw;
-  background-color: rgb(128, 138, 141); /* This sets the solid color */
   background-image: url('../../assets/IMG/paperTexture2-.png'); /* This sets the background image */
   background-blend-mode: overlay; /* This blends the color with the image */
   background-size: cover; /* This ensures the image covers the whole header */
@@ -12,7 +11,6 @@
   align-items: center;
   z-index: 2;
 }
-
 
 .header_clef{
   height: 90px;
