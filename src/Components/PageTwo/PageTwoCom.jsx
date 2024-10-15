@@ -17,4 +17,4 @@ const PageTwoCom = () => {
   )
 }
 
-export default PageTwoCom
+export default PageTwoCom;

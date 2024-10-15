@@ -11,19 +11,19 @@ import MyOneAndOnlyYou from '../assets/Audio1/MyOneAndOnlyYou.mp3'
 
 export const Audio = [
   {
-    title : 'Might be you',
-    source : mightBeYou
+    title: 'Might be you',
+    source: mightBeYou
   },
-  { 
+  {
     title: 'How deep is your love',
-    source : howDeepIsYourLove
+    source: howDeepIsYourLove
   },
   {
     title: 'Bubbly',
     source: Bubly
   },
   {
-    title:  'Cant take my eyes of you',
+    title: 'Cant take my eyes of you',
     source: CantTakeMyEyesOfYou
   },
   {
