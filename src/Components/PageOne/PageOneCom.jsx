@@ -17,6 +17,6 @@ const PageOneCom = () => {
       }
     </div>
   )
-}
+};
 
-export default PageOneCom
+export default PageOneCom;
