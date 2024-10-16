@@ -16,7 +16,7 @@ const Header = () => {
         <img onClick={handleChangePage} src={clef} alt="png" />
       </div>
       <div className="header_text">
-        <i>marked-</i>
+        <i>melodia-</i>
       </div>
     </div>
   )
